@@ -20,9 +20,9 @@ $ java -jar target/customer-phonenumber-validation-0.0.1-SNAPSHOT.jar
 //dockerize
 
 // create a docker image
-$ sudo docker build -t spring-boot:1.0 .
+$ docker build -t spring-boot:1.0 .
 // run it
-$ sudo docker run -d -p 8080:8080 -t spring-boot:1.0
+$ docker run -d -p 8080:8080 -t spring-boot:1.0
 
   access http://localhost:8080
 ```
